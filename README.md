@@ -1,4 +1,4 @@
-# PokashlyajBot on aiogram
+# PokashlyajBot on aiogram (temporarily is off)
 
 This TG-Bot (@PokashlyajBot) is considered as a pet-project to get acquainted with aiogram asynchronous framework written in Python.
 The project is implemented in virtual environment with Python version 3.12.2.
