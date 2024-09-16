@@ -21,7 +21,7 @@ def make_graph_age(ages):
         for key in age_groups:
             if key[0] <= a <= key[1]:
                 age_groups[key] += 1
-    groups = [str(i) for i in list(age_groups.keys())]
+    groups = [f'{str(i[0])}-{str(i[1])}' for i in list(age_groups.keys())]
     values_1 = list(age_groups.values())
     plt.bar(groups, values_1, color='orange')  # Посроение столбчатой диаграммы
     plt.yticks(np.arange(min(values_1), max(values_1)+1, 1.0))  # изменяем шаг делений на оси y до целых значений
